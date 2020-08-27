@@ -3,73 +3,76 @@
 
   <remote fetch="git://git.osdn.net/gitroot/android-x86/manifest" name="x86"/>
 
-  <project groups="pdk" name="device/generic/common" remote="x86" upstream="nougat-x86"/> 
-  <project name="device/generic/firmware" remote="x86" upstream="nougat-x86"/> 
-  <project groups="pdk" name="device/generic/x86" remote="x86" upstream="nougat-x86"/> 
-  <project groups="pdk" name="device/generic/x86_64" remote="x86" upstream="nougat-x86"/> 
-  <project name="kernel/common" path="kernel" remote="x86" upstream="kernel-4.9"/> 
-  <project groups="pdk" name="platform/art" path="art" remote="x86" upstream="nougat-x86"/> 
-  <project groups="pdk" name="platform/bionic" path="bionic" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/bootable/newinstaller" path="bootable/newinstaller" remote="x86" upstream="nougat-x86"/> 
-  <project groups="pdk,tradefed" name="platform/build" path="build" remote="x86" upstream="nougat-x86"/>
-  <project name="platform/external/alsa-lib" path="external/alsa-lib" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/alsa-utils" path="external/alsa-utils" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/busybox" path="external/busybox" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/drm_framebuffer" path="external/drm_framebuffer" remote="x86" upstream="nougat-x86"/> 
-  <project groups="drm_gralloc" name="platform/external/drm_gralloc" path="external/drm_gralloc" remote="x86" upstream="nougat-x86"/> 
-  <project groups="drm_hwcomposer" name="platform/external/drm_hwcomposer" path="external/drm_hwcomposer" remote="x86" upstream="nougat-x86"/> 
-  <project groups="pdk" name="platform/external/e2fsprogs" path="external/e2fsprogs" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/efibootmgr" path="external/efibootmgr" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/efivar" path="external/efivar" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/eject" path="external/eject" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/exfat" path="external/exfat" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/ffmpeg" path="external/ffmpeg" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/gbm_gralloc" path="external/gbm_gralloc" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/googleanalytics" path="external/googleanalytics" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/kernel-drivers" path="external/kernel-drivers" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/koush/Superuser" path="external/koush/Superuser" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/koush/Widgets" path="external/koush/Widgets" remote="x86" upstream="nougat-x86"/> 
-  <project groups="pdk" name="platform/external/libdrm" path="external/libdrm" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/llvm" path="external/llvm70" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/mesa" path="external/mesa" remote="x86" upstream="nougat-x86"/> 
-  <project groups="pdk" name="platform/external/mksh" path="external/mksh" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/ntfs-3g" path="external/ntfs-3g" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/s2tc" path="external/s2tc" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/stagefright-plugins" path="external/stagefright-plugins" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/swiftshader" path="external/swiftshader" remote="x86" upstream="nougat-x86"/> 
-  <project groups="pdk" name="platform/external/toybox" path="external/toybox" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/external/v86d" path="external/v86d" remote="x86" upstream="nougat-x86"/> 
-  <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" remote="x86" upstream="nougat-x86"/> 
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="x86" upstream="nougat-x86"/> 
-  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="x86" upstream="nougat-x86"/> 
-  <project groups="pdk,broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/hardware/gps" path="hardware/gps" remote="x86" upstream="nougat-x86"/> 
-  <project groups="intel,pdk" name="platform/hardware/intel/audio_media" path="hardware/intel/audio_media" remote="x86" upstream="nougat-x86"/> 
-  <project groups="intel,pdk" name="platform/hardware/intel/common/libva" path="hardware/intel/common/libva" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/hardware/intel/common/vaapi" path="hardware/intel/common/vaapi" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/hardware/intel/libsensors" path="hardware/intel/libsensors" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/hardware/libaudio" path="hardware/libaudio" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/hardware/libcamera" path="hardware/libcamera" remote="x86" upstream="nougat-x86"/> 
-  <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" remote="x86" upstream="nougat-x86"/> 
-  <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/hardware/liblights" path="hardware/liblights" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/hardware/libsensors" path="hardware/libsensors" remote="x86" upstream="nougat-x86"/> 
-  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" remote="x86" upstream="nougat-x86"/>
-  <project name="platform/hardware/x86power" path="hardware/x86power" remote="x86" upstream="nougat-x86"/> 
-  <project groups="pdk-fs" name="platform/packages/apps/Camera2" path="packages/apps/Camera2" remote="x86" revision="e0fae080f045c95b3ecfcbf7531588208336f372" upstream="nougat-x86"/>
-  <project name="platform/packages/apps/Eleven" path="packages/apps/Eleven" remote="x86" upstream="nougat-x86"/> 
-  <project groups="pdk-fs" name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" remote="x86" upstream="nougat-x86"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" remote="x86" upstream="nougat-x86"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Settings" path="packages/apps/Settings" remote="x86" upstream="nougat-x86"/>
-  <project name="platform/packages/apps/TSCalibration2" path="packages/apps/TSCalibration2" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/packages/apps/Taskbar" path="packages/apps/Taskbar" remote="x86" upstream="nougat-x86"/> 
-  <project name="platform/packages/services/Analytics" path="packages/services/Analytics" remote="x86" upstream="nougat-x86"/> 
-  <project groups="pdk" name="platform/system/bt" path="system/bt" remote="x86" upstream="nougat-x86"/>
-  <project groups="pdk" name="platform/system/core" path="system/core" remote="x86" upstream="nougat-x86"/>
-  <project groups="pdk" name="platform/system/extras" path="system/extras" remote="x86" upstream="nougat-x86"/>
-  <project groups="pdk" name="platform/system/media" path="system/media" remote="x86" upstream="nougat-x86"/>
-  <project groups="pdk" name="platform/system/netd" path="system/netd" remote="x86" upstream="nougat-x86"/>
-  <project groups="pdk" name="platform/system/vold" path="system/vold" remote="x86" upstream="nougat-x86"/>
+  <!-- from x86 port repositories -->
+  <project path="build" name="platform/build" groups="pdk,tradefed" remote="x86" revision="nougat-x86" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="kernel" name="kernel/common" remote="x86" revision="kernel-4.9" />
+  <project path="art" name="platform/art" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="bionic" name="platform/bionic" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="nougat-x86" />
+  <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="device/generic/firmware" name="device/generic/firmware" remote="x86" revision="nougat-x86" />
+  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="nougat-x86" />
+  <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="nougat-x86" />
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="x86" revision="nougat-x86" />
+  <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="nougat-x86" />
+  <project path="external/drm_framebuffer" name="platform/external/drm_framebuffer" remote="x86" revision="nougat-x86" />
+  <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc" remote="x86" revision="nougat-x86" />
+  <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" remote="x86" revision="nougat-x86" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="external/efibootmgr" name="platform/external/efibootmgr" remote="x86" revision="nougat-x86" />
+  <project path="external/efivar" name="platform/external/efivar" remote="x86" revision="nougat-x86" />
+  <project path="external/eject" name="platform/external/eject" remote="x86" revision="nougat-x86" />
+  <project path="external/exfat" name="platform/external/exfat" remote="x86" revision="nougat-x86" />
+  <project path="external/ffmpeg" name="platform/external/ffmpeg" remote="x86" revision="nougat-x86" />
+  <project path="external/gbm_gralloc" name="platform/external/gbm_gralloc" remote="x86" revision="nougat-x86" />
+  <project path="external/googleanalytics" name="platform/external/googleanalytics" remote="x86" revision="nougat-x86" />
+  <project path="external/kernel-drivers" name="platform/external/kernel-drivers" remote="x86" revision="nougat-x86" />
+  <project path="external/koush/Superuser" name="platform/external/koush/Superuser" remote="x86" revision="nougat-x86" />
+  <project path="external/koush/Widgets" name="platform/external/koush/Widgets" remote="x86" revision="nougat-x86" />
+  <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="external/llvm70" name="platform/external/llvm" remote="x86" revision="nougat-x86" />
+  <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="nougat-x86" />
+  <project path="external/mksh" name="platform/external/mksh" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="external/ntfs-3g" name="platform/external/ntfs-3g" remote="x86" revision="nougat-x86" />
+  <project path="external/s2tc" name="platform/external/s2tc" remote="x86" revision="nougat-x86" />
+  <project path="external/stagefright-plugins" name="platform/external/stagefright-plugins" remote="x86" revision="nougat-x86" />
+  <project path="external/swiftshader" name="platform/external/swiftshader" remote="x86" revision="nougat-x86" />
+  <project path="external/toybox" name="platform/external/toybox" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="nougat-x86" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="x86" revision="nougat-x86" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="x86" revision="nougat-x86" />
+  <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="nougat-x86" />
+  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel,pdk" remote="x86" revision="nougat-x86" />
+  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel,pdk" remote="x86" revision="nougat-x86" />
+  <project path="hardware/intel/common/vaapi" name="platform/hardware/intel/common/vaapi" remote="x86" revision="nougat-x86" />
+  <project path="hardware/intel/libsensors" name="platform/hardware/intel/libsensors" remote="x86" revision="nougat-x86" />
+  <project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="nougat-x86" />
+  <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="nougat-x86" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="nougat-x86" />
+  <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="nougat-x86" />
+  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="hardware/x86power" name="platform/hardware/x86power" remote="x86" revision="nougat-x86" />
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="x86" revision="nougat-x86" />
+  <project path="packages/apps/Eleven" name="platform/packages/apps/Eleven" remote="x86" revision="nougat-x86" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" remote="x86" revision="nougat-x86" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="x86" revision="nougat-x86" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="x86" revision="nougat-x86" />
+  <project path="packages/apps/TSCalibration2" name="platform/packages/apps/TSCalibration2" remote="x86" revision="nougat-x86" />
+  <project path="packages/apps/Taskbar" name="platform/packages/apps/Taskbar" remote="x86" revision="nougat-x86" />
+  <project path="packages/services/Analytics" name="platform/packages/services/Analytics" remote="x86" revision="nougat-x86" />
+  <project path="system/bt" name="platform/system/bt" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="system/core" name="platform/system/core" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="system/extras" name="platform/system/extras" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="system/media" name="platform/system/media" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" remote="x86" revision="nougat-x86" />
+  <project path="system/vold" name="platform/system/vold" groups="pdk" remote="x86" revision="nougat-x86" />
  
 </manifest>
