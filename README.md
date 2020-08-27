@@ -1,2 +1,4 @@
 # android-x86-mirror
-android-x86 xml
+repo init -u https://github.com/ipfgao/android-x86-mirror.git --mirror
+
+repo sync
